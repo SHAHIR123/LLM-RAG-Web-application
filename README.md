@@ -20,7 +20,7 @@ source venv/bin/activate
 pip install llama-index qdrant_client torch transformers flask flask-cors
 
 
-Just to make sure the LLM is listening create a test.py
+Just to make sure the LLM is listening run test.py
 
 from llama_index.llms import Ollama
 
